@@ -41,7 +41,7 @@ jobs:
     
     - name: Build Firmware
       env:
-        TNAME: rm2100
+        TNAME: RM2100
       run: |
         cd /opt/padavan/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
